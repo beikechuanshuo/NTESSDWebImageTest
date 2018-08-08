@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D9FC7CC2062E0F1764AF791 /* libPods-NTESSDWebImageTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD51E4BF80374CAD5C62898E /* libPods-NTESSDWebImageTest.a */; };
+		C542788A211997870039A0CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5427889211997870039A0CF /* AppDelegate.m */; };
+		C542788D211997870039A0CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C542788C211997870039A0CF /* ViewController.m */; };
+		C5427890211997870039A0CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C542788E211997870039A0CF /* Main.storyboard */; };
+		C5427892211997870039A0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5427891211997870039A0CF /* Assets.xcassets */; };
+		C5427895211997870039A0CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5427893211997870039A0CF /* LaunchScreen.storyboard */; };
+		C5427898211997870039A0CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5427897211997870039A0CF /* main.m */; };
+		C543A934211AC1F200144C85 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = C543A933211AC1F200144C85 /* 1.gif */; };
+		C543A94B211ACCC700144C85 /* NTESSDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A937211ACCC700144C85 /* NTESSDImageCache.m */; };
+		C543A94C211ACCC700144C85 /* NTESSDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A939211ACCC700144C85 /* NTESSDWebImageDownloader.m */; };
+		C543A94D211ACCC700144C85 /* NTESSDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A93C211ACCC700144C85 /* NTESSDWebImageManager.m */; };
+		C543A94E211ACCC700144C85 /* NTESSDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A93E211ACCC700144C85 /* NTESSDWebImagePrefetcher.m */; };
+		C543A94F211ACCC700144C85 /* UIButton+NTESWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A940211ACCC700144C85 /* UIButton+NTESWebCache.m */; };
+		C543A950211ACCC700144C85 /* UIImage+NTESGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A942211ACCC700144C85 /* UIImage+NTESGIF.m */; };
+		C543A951211ACCC700144C85 /* UIImage+NTESMultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A944211ACCC700144C85 /* UIImage+NTESMultiFormat.m */; };
+		C543A952211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A946211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.m */; };
+		C543A953211ACCC700144C85 /* UIImageView+NTESWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A948211ACCC700144C85 /* UIImageView+NTESWebCache.m */; };
+		C543A954211ACCC700144C85 /* UIView+NTESWebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C543A94A211ACCC700144C85 /* UIView+NTESWebCacheOperation.m */; };
+		C543A956211ACCE800144C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C543A955211ACCE800144C85 /* Foundation.framework */; };
+		C543A958211ACCEE00144C85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C543A957211ACCEE00144C85 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26976ED24042CF5C4989C5FE /* Pods-NTESSDWebImageTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTESSDWebImageTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-NTESSDWebImageTest/Pods-NTESSDWebImageTest.release.xcconfig"; sourceTree = "<group>"; };
+		AD51E4BF80374CAD5C62898E /* libPods-NTESSDWebImageTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NTESSDWebImageTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5427885211997870039A0CF /* NTESSDWebImageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTESSDWebImageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5427888211997870039A0CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5427889211997870039A0CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C542788B211997870039A0CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C542788C211997870039A0CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C542788F211997870039A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5427891211997870039A0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5427894211997870039A0CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5427896211997870039A0CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5427897211997870039A0CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C543A933211AC1F200144C85 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		C543A936211ACCC700144C85 /* NTESSDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDImageCache.h; sourceTree = "<group>"; };
+		C543A937211ACCC700144C85 /* NTESSDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSDImageCache.m; sourceTree = "<group>"; };
+		C543A938211ACCC700144C85 /* NTESSDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDWebImageDownloader.h; sourceTree = "<group>"; };
+		C543A939211ACCC700144C85 /* NTESSDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSDWebImageDownloader.m; sourceTree = "<group>"; };
+		C543A93A211ACCC700144C85 /* NTESSDWebImageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDWebImageHeader.h; sourceTree = "<group>"; };
+		C543A93B211ACCC700144C85 /* NTESSDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDWebImageManager.h; sourceTree = "<group>"; };
+		C543A93C211ACCC700144C85 /* NTESSDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSDWebImageManager.m; sourceTree = "<group>"; };
+		C543A93D211ACCC700144C85 /* NTESSDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		C543A93E211ACCC700144C85 /* NTESSDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESSDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		C543A93F211ACCC700144C85 /* UIButton+NTESWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NTESWebCache.h"; sourceTree = "<group>"; };
+		C543A940211ACCC700144C85 /* UIButton+NTESWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NTESWebCache.m"; sourceTree = "<group>"; };
+		C543A941211ACCC700144C85 /* UIImage+NTESGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NTESGIF.h"; sourceTree = "<group>"; };
+		C543A942211ACCC700144C85 /* UIImage+NTESGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NTESGIF.m"; sourceTree = "<group>"; };
+		C543A943211ACCC700144C85 /* UIImage+NTESMultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NTESMultiFormat.h"; sourceTree = "<group>"; };
+		C543A944211ACCC700144C85 /* UIImage+NTESMultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NTESMultiFormat.m"; sourceTree = "<group>"; };
+		C543A945211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NTESHighlightedWebCache.h"; sourceTree = "<group>"; };
+		C543A946211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NTESHighlightedWebCache.m"; sourceTree = "<group>"; };
+		C543A947211ACCC700144C85 /* UIImageView+NTESWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+NTESWebCache.h"; sourceTree = "<group>"; };
+		C543A948211ACCC700144C85 /* UIImageView+NTESWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+NTESWebCache.m"; sourceTree = "<group>"; };
+		C543A949211ACCC700144C85 /* UIView+NTESWebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTESWebCacheOperation.h"; sourceTree = "<group>"; };
+		C543A94A211ACCC700144C85 /* UIView+NTESWebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTESWebCacheOperation.m"; sourceTree = "<group>"; };
+		C543A955211ACCE800144C85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C543A957211ACCEE00144C85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCB14359D8CF4B9DB1CDE4A6 /* Pods-NTESSDWebImageTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NTESSDWebImageTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NTESSDWebImageTest/Pods-NTESSDWebImageTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5427882211997870039A0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C543A958211ACCEE00144C85 /* UIKit.framework in Frameworks */,
+				C543A956211ACCE800144C85 /* Foundation.framework in Frameworks */,
+				9D9FC7CC2062E0F1764AF791 /* libPods-NTESSDWebImageTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5C182A1FC3206FA94385754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C543A957211ACCEE00144C85 /* UIKit.framework */,
+				C543A955211ACCE800144C85 /* Foundation.framework */,
+				AD51E4BF80374CAD5C62898E /* libPods-NTESSDWebImageTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C542787C211997870039A0CF = {
+			isa = PBXGroup;
+			children = (
+				C543A935211ACCC700144C85 /* Classes */,
+				C5427887211997870039A0CF /* NTESSDWebImageTest */,
+				C5427886211997870039A0CF /* Products */,
+				E21D98CB3F62E3520B6E9048 /* Pods */,
+				B5C182A1FC3206FA94385754 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5427886211997870039A0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5427885211997870039A0CF /* NTESSDWebImageTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5427887211997870039A0CF /* NTESSDWebImageTest */ = {
+			isa = PBXGroup;
+			children = (
+				C5427888211997870039A0CF /* AppDelegate.h */,
+				C5427889211997870039A0CF /* AppDelegate.m */,
+				C542788B211997870039A0CF /* ViewController.h */,
+				C542788C211997870039A0CF /* ViewController.m */,
+				C542788E211997870039A0CF /* Main.storyboard */,
+				C5427891211997870039A0CF /* Assets.xcassets */,
+				C5427893211997870039A0CF /* LaunchScreen.storyboard */,
+				C5427896211997870039A0CF /* Info.plist */,
+				C5427897211997870039A0CF /* main.m */,
+				C543A933211AC1F200144C85 /* 1.gif */,
+			);
+			path = NTESSDWebImageTest;
+			sourceTree = "<group>";
+		};
+		C543A935211ACCC700144C85 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C543A936211ACCC700144C85 /* NTESSDImageCache.h */,
+				C543A937211ACCC700144C85 /* NTESSDImageCache.m */,
+				C543A938211ACCC700144C85 /* NTESSDWebImageDownloader.h */,
+				C543A939211ACCC700144C85 /* NTESSDWebImageDownloader.m */,
+				C543A93A211ACCC700144C85 /* NTESSDWebImageHeader.h */,
+				C543A93B211ACCC700144C85 /* NTESSDWebImageManager.h */,
+				C543A93C211ACCC700144C85 /* NTESSDWebImageManager.m */,
+				C543A93D211ACCC700144C85 /* NTESSDWebImagePrefetcher.h */,
+				C543A93E211ACCC700144C85 /* NTESSDWebImagePrefetcher.m */,
+				C543A93F211ACCC700144C85 /* UIButton+NTESWebCache.h */,
+				C543A940211ACCC700144C85 /* UIButton+NTESWebCache.m */,
+				C543A941211ACCC700144C85 /* UIImage+NTESGIF.h */,
+				C543A942211ACCC700144C85 /* UIImage+NTESGIF.m */,
+				C543A943211ACCC700144C85 /* UIImage+NTESMultiFormat.h */,
+				C543A944211ACCC700144C85 /* UIImage+NTESMultiFormat.m */,
+				C543A945211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.h */,
+				C543A946211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.m */,
+				C543A947211ACCC700144C85 /* UIImageView+NTESWebCache.h */,
+				C543A948211ACCC700144C85 /* UIImageView+NTESWebCache.m */,
+				C543A949211ACCC700144C85 /* UIView+NTESWebCacheOperation.h */,
+				C543A94A211ACCC700144C85 /* UIView+NTESWebCacheOperation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E21D98CB3F62E3520B6E9048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCB14359D8CF4B9DB1CDE4A6 /* Pods-NTESSDWebImageTest.debug.xcconfig */,
+				26976ED24042CF5C4989C5FE /* Pods-NTESSDWebImageTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5427884211997870039A0CF /* NTESSDWebImageTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C542789B211997870039A0CF /* Build configuration list for PBXNativeTarget "NTESSDWebImageTest" */;
+			buildPhases = (
+				577092F923313D7E41895B38 /* [CP] Check Pods Manifest.lock */,
+				C5427881211997870039A0CF /* Sources */,
+				C5427882211997870039A0CF /* Frameworks */,
+				C5427883211997870039A0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTESSDWebImageTest;
+			productName = NTESSDWebImageTest;
+			productReference = C5427885211997870039A0CF /* NTESSDWebImageTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C542787D211997870039A0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "NetEase, Inc";
+				TargetAttributes = {
+					C5427884211997870039A0CF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C5427880211997870039A0CF /* Build configuration list for PBXProject "NTESSDWebImageTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C542787C211997870039A0CF;
+			productRefGroup = C5427886211997870039A0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5427884211997870039A0CF /* NTESSDWebImageTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5427883211997870039A0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5427895211997870039A0CF /* LaunchScreen.storyboard in Resources */,
+				C5427892211997870039A0CF /* Assets.xcassets in Resources */,
+				C543A934211AC1F200144C85 /* 1.gif in Resources */,
+				C5427890211997870039A0CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		577092F923313D7E41895B38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NTESSDWebImageTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5427881211997870039A0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C542788D211997870039A0CF /* ViewController.m in Sources */,
+				C543A94E211ACCC700144C85 /* NTESSDWebImagePrefetcher.m in Sources */,
+				C543A94B211ACCC700144C85 /* NTESSDImageCache.m in Sources */,
+				C543A94F211ACCC700144C85 /* UIButton+NTESWebCache.m in Sources */,
+				C543A94C211ACCC700144C85 /* NTESSDWebImageDownloader.m in Sources */,
+				C543A954211ACCC700144C85 /* UIView+NTESWebCacheOperation.m in Sources */,
+				C543A94D211ACCC700144C85 /* NTESSDWebImageManager.m in Sources */,
+				C543A950211ACCC700144C85 /* UIImage+NTESGIF.m in Sources */,
+				C543A952211ACCC700144C85 /* UIImageView+NTESHighlightedWebCache.m in Sources */,
+				C543A953211ACCC700144C85 /* UIImageView+NTESWebCache.m in Sources */,
+				C5427898211997870039A0CF /* main.m in Sources */,
+				C543A951211ACCC700144C85 /* UIImage+NTESMultiFormat.m in Sources */,
+				C542788A211997870039A0CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C542788E211997870039A0CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C542788F211997870039A0CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5427893211997870039A0CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5427894211997870039A0CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5427899211997870039A0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C542789A211997870039A0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C542789C211997870039A0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB14359D8CF4B9DB1CDE4A6 /* Pods-NTESSDWebImageTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKVK7DJPK2;
+				INFOPLIST_FILE = NTESSDWebImageTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.NTESSDWebImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C542789D211997870039A0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26976ED24042CF5C4989C5FE /* Pods-NTESSDWebImageTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKVK7DJPK2;
+				INFOPLIST_FILE = NTESSDWebImageTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.netease.NTESSDWebImageTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5427880211997870039A0CF /* Build configuration list for PBXProject "NTESSDWebImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5427899211997870039A0CF /* Debug */,
+				C542789A211997870039A0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C542789B211997870039A0CF /* Build configuration list for PBXNativeTarget "NTESSDWebImageTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C542789C211997870039A0CF /* Debug */,
+				C542789D211997870039A0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C542787D211997870039A0CF /* Project object */;
+}
